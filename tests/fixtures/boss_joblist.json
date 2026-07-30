@@ -1,0 +1,29 @@
+{
+  "code": 0,
+  "message": "Success",
+  "zpData": {
+    "jobList": [
+      {
+        "encryptJobId": "abc123",
+        "encryptBrandId": "brand001",
+        "jobName": "AI Agent 开发工程师",
+        "salaryDesc": "20-35K·14薪",
+        "cityName": "杭州",
+        "areaDistrict": "余杭区",
+        "businessDistrict": "仓前",
+        "jobExperience": "1-3年",
+        "jobDegree": "本科",
+        "brandName": "示例科技",
+        "brandScaleName": "100-499人",
+        "brandStageName": "B轮",
+        "brandIndustry": "人工智能",
+        "bossName": "张女士",
+        "bossTitle": "HRBP",
+        "bossOnline": true,
+        "skills": ["Python", "LangGraph", "RAG"],
+        "jobLabels": ["五险一金"],
+        "welfareList": ["年终奖"]
+      }
+    ]
+  }
+}

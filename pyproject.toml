@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "job-market-radar"
+version = "0.1.0"
+description = "国内 AI 岗位聚合、筛选与可选自动开聊的本地工具"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "playwright>=1.50",
+  "pydantic>=2.8",
+  "PyYAML>=6.0",
+  "typer>=0.12",
+  "rich>=13.7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+job-radar = "job_radar.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

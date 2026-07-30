@@ -1,0 +1,39 @@
+{
+  "code": 0,
+  "message": "Success",
+  "zpData": {
+    "jobInfo": {
+      "jobName": "AI Agent 工程师",
+      "postDescription": "AI Agent 工程师是构建智能体（Agent）应用的核心技术角色，负责基于⼤语⾔模型（LLM）设计、开发、测试、部署和运维能够⾃主决策、调用工具、记忆交互的智能体系统。您将把先进的AI能⼒转化为可落地的业务产品，使Agent具备规划、反思、多步推理和多智能体协作能力，真正服务于实际场景。\n________________________________________\n岗位职责\n1.\tAgent核心开发\n–\t基于主流LLM（GPT、Claude、Qwen、DeepSeek等）设计并实现具备记忆、规划、工具调用能力的智能Agent。\n–\t设计ReAct、CoT、Tree-of-Thought",
+      "showSkills": [
+        "C/C++",
+        "Java",
+        "深度学习",
+        "LLM",
+        "Python",
+        "AI Agent"
+      ],
+      "proxyJob": 0,
+      "proxyType": 0,
+      "invalidStatus": false,
+      "address": "杭州示例区示例大厦1栋10层",
+      "salaryDesc": "12-20K"
+    },
+    "bossInfo": {
+      "name": "示例HR",
+      "title": "HR",
+      "activeTimeDesc": "刚刚活跃",
+      "bossOnline": false
+    },
+    "brandComInfo": {
+      "scaleName": "100-499人",
+      "stageName": "未融资",
+      "industryName": "其他行业",
+      "labels": [
+        "五险一金",
+        "补充医疗保险",
+        "定期体检"
+      ]
+    }
+  }
+}

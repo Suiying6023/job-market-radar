@@ -1,0 +1,43 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Browser profiles (may contain login session / cookies)
+.browser-profile/
+browsers/
+
+# Collected data and outputs (数据库本身按需提交，这里只挡临时文件)
+data/smoke.sqlite3
+data/*.sqlite3-wal
+data/*.sqlite3-shm
+**/data/*.sqlite3.bak*
+data/raw/
+output/
+
+# Secrets
+.env
+*.local.yaml
+config.local.yaml
+
+# Resume source material (personal data)
+resumes/private/
+
+# Private planning notes, not for the public repo
+ROADMAP.md
+
+# Probe/scratch logs
+data/*.log
+
+# Local run logs / probe artifacts
+**/data/*.log
+**/data/probe/
+data/*.sqlite3.bak
+data/targets_*.json

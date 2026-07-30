@@ -1,0 +1,32 @@
+# 最小实战验证：单城市、单关键词、单页、少量详情。
+platforms:
+  - boss
+cities:
+  - name: 杭州
+    boss_code: "101210100"
+keywords:
+  - AI Agent
+pages_per_query: 1
+detail_limit_per_query: 3
+page_size: 30
+collect_details: true
+request_delay_seconds: [6, 12]
+filters:
+  - {}
+exclude_title_keywords:
+  - 销售
+  - 主播
+exclude_company_keywords:
+  - 猎头
+  - 劳务派遣
+database_path: data/smoke.sqlite3
+raw_dir: data/raw
+output_dir: output
+browser:
+  mode: cdp
+  cdp_url: http://127.0.0.1:9222
+  headless: false
+  navigation_timeout_ms: 30000
+auto_chat:
+  enabled: false
+  dry_run: true
